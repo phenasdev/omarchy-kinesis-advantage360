@@ -55,6 +55,16 @@ touched.
 - The editor validates every position/action token against the data files
   before writing anything to the drive.
 
+## Remove
+
+```bash
+omarchy plugin remove io.github.phenasdev.kinesis360
+```
+
+Nothing is installed outside the plugin's own folder — no services, no
+system-wide files, no changes to the keyboard beyond whatever profiles you
+explicitly edited and applied.
+
 ## Using it
 
 Click the bar icon to mount the v-Drive (trigger the keyboard's own
