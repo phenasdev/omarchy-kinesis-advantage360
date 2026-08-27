@@ -1,0 +1,675 @@
+{
+  "$schema_note": "Position tokens and physical grid for the Kinesis Advantage360 (SmartSet, non-Pro). Source: Appendix A ('Position Token Map') of the Kinesis 'Adv360 SmartSet Direct Programming Guide' (v8-8-25), transcribed from the diagram image. row/col are layout hints for drawing the split keyboard in QML, not physical millimeters. The SmartSet key itself is not programmable and has no token.",
+  "layers": [
+    "base",
+    "keypad",
+    "function1",
+    "function2",
+    "function3"
+  ],
+  "layerHeaders": {
+    "base": "<base>",
+    "keypad": "<keypad>",
+    "function1": "<function1>",
+    "function2": "<function2>",
+    "function3": "<function3>"
+  },
+  "hands": {
+    "left": {
+      "main": [
+        {
+          "token": "eql",
+          "row": 0,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "eql"
+        },
+        {
+          "token": "1",
+          "row": 0,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "1"
+        },
+        {
+          "token": "2",
+          "row": 0,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "2"
+        },
+        {
+          "token": "3",
+          "row": 0,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "3"
+        },
+        {
+          "token": "4",
+          "row": 0,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "4"
+        },
+        {
+          "token": "5",
+          "row": 0,
+          "col": 5,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "5"
+        },
+        {
+          "token": "kp",
+          "row": 0,
+          "col": 6,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "KP"
+        },
+        {
+          "token": "tab",
+          "row": 1,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "tab"
+        },
+        {
+          "token": "q",
+          "row": 1,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "q"
+        },
+        {
+          "token": "w",
+          "row": 1,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "w"
+        },
+        {
+          "token": "e",
+          "row": 1,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "e"
+        },
+        {
+          "token": "r",
+          "row": 1,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "r"
+        },
+        {
+          "token": "t",
+          "row": 1,
+          "col": 5,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "t"
+        },
+        {
+          "token": "hk1",
+          "row": 1,
+          "col": 6,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "HK1"
+        },
+        {
+          "token": "esc",
+          "row": 2,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "esc"
+        },
+        {
+          "token": "a",
+          "row": 2,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "a"
+        },
+        {
+          "token": "s",
+          "row": 2,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "s"
+        },
+        {
+          "token": "d",
+          "row": 2,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "d"
+        },
+        {
+          "token": "f",
+          "row": 2,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "f"
+        },
+        {
+          "token": "g",
+          "row": 2,
+          "col": 5,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "g"
+        },
+        {
+          "token": "hk2",
+          "row": 2,
+          "col": 6,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "HK2"
+        },
+        {
+          "token": "lshf",
+          "row": 3,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "lshf"
+        },
+        {
+          "token": "z",
+          "row": 3,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "z"
+        },
+        {
+          "token": "x",
+          "row": 3,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "x"
+        },
+        {
+          "token": "c",
+          "row": 3,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "c"
+        },
+        {
+          "token": "v",
+          "row": 3,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "v"
+        },
+        {
+          "token": "b",
+          "row": 3,
+          "col": 5,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "b"
+        },
+        {
+          "token": "lfn",
+          "row": 4,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "LFN"
+        },
+        {
+          "token": "grav",
+          "row": 4,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "grav"
+        },
+        {
+          "token": "caps",
+          "row": 4,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "caps"
+        },
+        {
+          "token": "left",
+          "row": 4,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "left"
+        },
+        {
+          "token": "rght",
+          "row": 4,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "rght"
+        }
+      ],
+      "thumb": [
+        {
+          "token": "lctr",
+          "row": 0,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "lctr"
+        },
+        {
+          "token": "lalt",
+          "row": 0,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "lalt"
+        },
+        {
+          "token": "bspc",
+          "row": 1,
+          "col": 0,
+          "rowSpan": 2,
+          "colSpan": 1,
+          "label": "bspc"
+        },
+        {
+          "token": "del",
+          "row": 1,
+          "col": 1,
+          "rowSpan": 2,
+          "colSpan": 1,
+          "label": "del"
+        },
+        {
+          "token": "home",
+          "row": 1,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "home"
+        },
+        {
+          "token": "end",
+          "row": 2,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "end"
+        }
+      ]
+    },
+    "right": {
+      "main": [
+        {
+          "token": "6",
+          "row": 0,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "6"
+        },
+        {
+          "token": "7",
+          "row": 0,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "7"
+        },
+        {
+          "token": "8",
+          "row": 0,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "8"
+        },
+        {
+          "token": "9",
+          "row": 0,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "9"
+        },
+        {
+          "token": "0",
+          "row": 0,
+          "col": 5,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "0"
+        },
+        {
+          "token": "hyph",
+          "row": 0,
+          "col": 6,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "hyph"
+        },
+        {
+          "token": "hk3",
+          "row": 1,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "HK3"
+        },
+        {
+          "token": "y",
+          "row": 1,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "y"
+        },
+        {
+          "token": "u",
+          "row": 1,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "u"
+        },
+        {
+          "token": "i",
+          "row": 1,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "i"
+        },
+        {
+          "token": "o",
+          "row": 1,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "o"
+        },
+        {
+          "token": "p",
+          "row": 1,
+          "col": 5,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "p"
+        },
+        {
+          "token": "bsls",
+          "row": 1,
+          "col": 6,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "bsls"
+        },
+        {
+          "token": "hk4",
+          "row": 2,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "HK4"
+        },
+        {
+          "token": "h",
+          "row": 2,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "h"
+        },
+        {
+          "token": "j",
+          "row": 2,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "j"
+        },
+        {
+          "token": "k",
+          "row": 2,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "k"
+        },
+        {
+          "token": "l",
+          "row": 2,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "l"
+        },
+        {
+          "token": "scol",
+          "row": 2,
+          "col": 5,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "scol"
+        },
+        {
+          "token": "apos",
+          "row": 2,
+          "col": 6,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "apos"
+        },
+        {
+          "token": "n",
+          "row": 3,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "n"
+        },
+        {
+          "token": "m",
+          "row": 3,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "m"
+        },
+        {
+          "token": "comm",
+          "row": 3,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "comm"
+        },
+        {
+          "token": "perd",
+          "row": 3,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "perd"
+        },
+        {
+          "token": "fsls",
+          "row": 3,
+          "col": 5,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "fsls"
+        },
+        {
+          "token": "rshf",
+          "row": 3,
+          "col": 6,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "rshf"
+        },
+        {
+          "token": "up",
+          "row": 4,
+          "col": 2,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "UP"
+        },
+        {
+          "token": "down",
+          "row": 4,
+          "col": 3,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "DOWN"
+        },
+        {
+          "token": "obrk",
+          "row": 4,
+          "col": 4,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "obrk"
+        },
+        {
+          "token": "cbrk",
+          "row": 4,
+          "col": 5,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "cbrk"
+        },
+        {
+          "token": "rfn",
+          "row": 4,
+          "col": 6,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "RFN"
+        }
+      ],
+      "thumb": [
+        {
+          "token": "rwin",
+          "row": 0,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "rwin"
+        },
+        {
+          "token": "rctr",
+          "row": 0,
+          "col": 1,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "rctr"
+        },
+        {
+          "token": "pgup",
+          "row": 1,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "pgup"
+        },
+        {
+          "token": "pgdn",
+          "row": 2,
+          "col": 0,
+          "rowSpan": 1,
+          "colSpan": 1,
+          "label": "pgdn"
+        },
+        {
+          "token": "ent",
+          "row": 1,
+          "col": 1,
+          "rowSpan": 2,
+          "colSpan": 1,
+          "label": "ent"
+        },
+        {
+          "token": "spc",
+          "row": 1,
+          "col": 2,
+          "rowSpan": 2,
+          "colSpan": 1,
+          "label": "spc"
+        }
+      ]
+    }
+  },
+  "indicators": [
+    {
+      "id": "IND1",
+      "hand": "left",
+      "slot": 1,
+      "label": "Caps Lock (On/Off)"
+    },
+    {
+      "id": "IND2",
+      "hand": "left",
+      "slot": 2,
+      "label": "Profile (0-9)"
+    },
+    {
+      "id": "IND3",
+      "hand": "left",
+      "slot": 3,
+      "label": "Layer (Base/Kp/Fn1/Fn2/Fn3)"
+    },
+    {
+      "id": "IND4",
+      "hand": "right",
+      "slot": 1,
+      "label": "Num Lock (On/Off)"
+    },
+    {
+      "id": "IND5",
+      "hand": "right",
+      "slot": 2,
+      "label": "Scroll Lock (On/Off)"
+    },
+    {
+      "id": "IND6",
+      "hand": "right",
+      "slot": 3,
+      "label": "Layer (Base/Kp/Fn1/Fn2/Fn3)"
+    }
+  ],
+  "accessories": [
+    {
+      "token": "pedl",
+      "label": "Foot Pedal"
+    }
+  ]
+}

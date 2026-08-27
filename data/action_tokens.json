@@ -1,0 +1,1446 @@
+{
+  "$schema_note": "Action tokens for Kinesis Advantage360 SmartSet direct programming (v-Drive layout.txt). Source: Kinesis 'SmartSet Engine Supported Actions' PDF (v2-11-22).",
+  "categories": [
+    {
+      "id": "keyboard",
+      "label": "Keyboard"
+    },
+    {
+      "id": "keyboard-modifier",
+      "label": "Modifiers"
+    },
+    {
+      "id": "media",
+      "label": "Media / Consumer"
+    },
+    {
+      "id": "mouse",
+      "label": "Mouse"
+    },
+    {
+      "id": "system",
+      "label": "System"
+    },
+    {
+      "id": "custom",
+      "label": "Kinesis / Layer"
+    }
+  ],
+  "tokens": {
+    "g": {
+      "description": "keyboard g and G",
+      "category": "keyboard",
+      "common": true
+    },
+    "h": {
+      "description": "keyboard h and H",
+      "category": "keyboard",
+      "common": true
+    },
+    "i": {
+      "description": "keyboard i and I",
+      "category": "keyboard",
+      "common": true
+    },
+    "j": {
+      "description": "keyboard j and J",
+      "category": "keyboard",
+      "common": true
+    },
+    "k": {
+      "description": "keyboard k and K",
+      "category": "keyboard",
+      "common": true
+    },
+    "l": {
+      "description": "keyboard l and L",
+      "category": "keyboard",
+      "common": true
+    },
+    "m": {
+      "description": "keyboard m and M",
+      "category": "keyboard",
+      "common": true
+    },
+    "n": {
+      "description": "keyboard n and N",
+      "category": "keyboard",
+      "common": true
+    },
+    "o": {
+      "description": "keyboard o and O",
+      "category": "keyboard",
+      "common": true
+    },
+    "p": {
+      "description": "keyboard p and P",
+      "category": "keyboard",
+      "common": true
+    },
+    "q": {
+      "description": "keyboard q and Q",
+      "category": "keyboard",
+      "common": true
+    },
+    "r": {
+      "description": "keyboard r and R",
+      "category": "keyboard",
+      "common": true
+    },
+    "s": {
+      "description": "keyboard s and S",
+      "category": "keyboard",
+      "common": true
+    },
+    "t": {
+      "description": "keyboard t and T",
+      "category": "keyboard",
+      "common": true
+    },
+    "u": {
+      "description": "keyboard u and U",
+      "category": "keyboard",
+      "common": true
+    },
+    "v": {
+      "description": "keyboard v and V",
+      "category": "keyboard",
+      "common": true
+    },
+    "w": {
+      "description": "keyboard w and W",
+      "category": "keyboard",
+      "common": true
+    },
+    "x": {
+      "description": "keyboard x and X",
+      "category": "keyboard",
+      "common": true
+    },
+    "y": {
+      "description": "keyboard y and Y",
+      "category": "keyboard",
+      "common": true
+    },
+    "z": {
+      "description": "keyboard z and Z",
+      "category": "keyboard",
+      "common": true
+    },
+    "1": {
+      "description": "keyboard 1 and !",
+      "category": "keyboard",
+      "common": true
+    },
+    "2": {
+      "description": "keyboard 2 and @",
+      "category": "keyboard",
+      "common": true
+    },
+    "3": {
+      "description": "keyboard 3 and #",
+      "category": "keyboard",
+      "common": true
+    },
+    "4": {
+      "description": "keyboard 4 and $",
+      "category": "keyboard",
+      "common": true
+    },
+    "5": {
+      "description": "keyboard 5 and %",
+      "category": "keyboard",
+      "common": true
+    },
+    "6": {
+      "description": "keyboard 6 and ^",
+      "category": "keyboard",
+      "common": true
+    },
+    "7": {
+      "description": "keyboard 7 and &",
+      "category": "keyboard",
+      "common": true
+    },
+    "8": {
+      "description": "keyboard 8 and *",
+      "category": "keyboard",
+      "common": true
+    },
+    "9": {
+      "description": "keyboard 9 and (",
+      "category": "keyboard",
+      "common": true
+    },
+    "0": {
+      "description": "keyboard 0 and )",
+      "category": "keyboard",
+      "common": true
+    },
+    "ent": {
+      "description": "keyboard Return",
+      "category": "keyboard",
+      "common": true
+    },
+    "esc": {
+      "description": "keyboard ESCAPE",
+      "category": "keyboard",
+      "common": true
+    },
+    "bspc": {
+      "description": "keyboard DELETE",
+      "category": "keyboard",
+      "common": true
+    },
+    "tab": {
+      "description": "keyboard Tab",
+      "category": "keyboard",
+      "common": true
+    },
+    "spc": {
+      "description": "keyboard Spacebar",
+      "category": "keyboard",
+      "common": true
+    },
+    "hyph": {
+      "description": "keyboard - and (underscore)",
+      "category": "keyboard",
+      "common": true
+    },
+    "eql": {
+      "description": "keyboard = and +",
+      "category": "keyboard",
+      "common": true
+    },
+    "obrk": {
+      "description": "keyboard [ and {",
+      "category": "keyboard",
+      "common": true
+    },
+    "cbrk": {
+      "description": "keyboard ] and }",
+      "category": "keyboard",
+      "common": true
+    },
+    "bsls": {
+      "description": "keyboard \\and |",
+      "category": "keyboard",
+      "common": true
+    },
+    "int#": {
+      "description": "keyboard non-US # and ˜",
+      "category": "keyboard",
+      "common": false
+    },
+    "scol": {
+      "description": "keyboard ; and :",
+      "category": "keyboard",
+      "common": true
+    },
+    "apos": {
+      "description": "keyboard ‘ and “",
+      "category": "keyboard",
+      "common": true
+    },
+    "grav": {
+      "description": "keyboard Grave Accent and Tilde",
+      "category": "keyboard",
+      "common": true
+    },
+    "comm": {
+      "description": "keyboard , and <",
+      "category": "keyboard",
+      "common": true
+    },
+    "perd": {
+      "description": "keyboard . and >",
+      "category": "keyboard",
+      "common": true
+    },
+    "fsls": {
+      "description": "keyboard / and ?",
+      "category": "keyboard",
+      "common": true
+    },
+    "caps": {
+      "description": "keyboard Caps Lock",
+      "category": "keyboard",
+      "common": true
+    },
+    "f1": {
+      "description": "keyboard F1",
+      "category": "keyboard",
+      "common": true
+    },
+    "f2": {
+      "description": "keyboard F2",
+      "category": "keyboard",
+      "common": true
+    },
+    "f3": {
+      "description": "keyboard F3",
+      "category": "keyboard",
+      "common": true
+    },
+    "f4": {
+      "description": "keyboard F4",
+      "category": "keyboard",
+      "common": true
+    },
+    "f5": {
+      "description": "keyboard F5",
+      "category": "keyboard",
+      "common": true
+    },
+    "f6": {
+      "description": "keyboard F6",
+      "category": "keyboard",
+      "common": true
+    },
+    "f7": {
+      "description": "keyboard F7",
+      "category": "keyboard",
+      "common": true
+    },
+    "f8": {
+      "description": "keyboard F8",
+      "category": "keyboard",
+      "common": true
+    },
+    "f9": {
+      "description": "keyboard F9",
+      "category": "keyboard",
+      "common": true
+    },
+    "f10": {
+      "description": "keyboard F10",
+      "category": "keyboard",
+      "common": true
+    },
+    "f11": {
+      "description": "keyboard F11",
+      "category": "keyboard",
+      "common": true
+    },
+    "f12": {
+      "description": "keyboard F12",
+      "category": "keyboard",
+      "common": true
+    },
+    "prnt": {
+      "description": "keyboard Print Screen",
+      "category": "keyboard",
+      "common": true
+    },
+    "sclk": {
+      "description": "keyboard Scroll Lock",
+      "category": "keyboard",
+      "common": true
+    },
+    "paus": {
+      "description": "keyboard Pause",
+      "category": "keyboard",
+      "common": true
+    },
+    "ins": {
+      "description": "keyboard Insert",
+      "category": "keyboard",
+      "common": true
+    },
+    "home": {
+      "description": "keyboard Home",
+      "category": "keyboard",
+      "common": true
+    },
+    "pgup": {
+      "description": "keyboard Page Up",
+      "category": "keyboard",
+      "common": true
+    },
+    "del": {
+      "description": "keyboard Delete",
+      "category": "keyboard",
+      "common": true
+    },
+    "end": {
+      "description": "keyboard End",
+      "category": "keyboard",
+      "common": true
+    },
+    "pgdn": {
+      "description": "keyboard Page Down",
+      "category": "keyboard",
+      "common": true
+    },
+    "rght": {
+      "description": "keyboard Right Arrow",
+      "category": "keyboard",
+      "common": true
+    },
+    "left": {
+      "description": "keyboard Left Arrow",
+      "category": "keyboard",
+      "common": true
+    },
+    "down": {
+      "description": "keyboard Down Arrow",
+      "category": "keyboard",
+      "common": true
+    },
+    "up": {
+      "description": "keyboard Up Arrow",
+      "category": "keyboard",
+      "common": true
+    },
+    "nmlk": {
+      "description": "Keypad Num Lock and Clear",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp/": {
+      "description": "keypad /",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp*": {
+      "description": "keypad *",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp-": {
+      "description": "keypad -",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp+": {
+      "description": "keypad +",
+      "category": "keyboard",
+      "common": true
+    },
+    "kpen": {
+      "description": "keypad ENTER",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp1": {
+      "description": "keypad 1 and End",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp2": {
+      "description": "keypad 2 and Down Arrow",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp3": {
+      "description": "keypad 3 and Page Down",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp4": {
+      "description": "keypad 4 and Left Arrow",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp5": {
+      "description": "keypad 5",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp6": {
+      "description": "keypad 6 and Right Arrow",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp7": {
+      "description": "keypad 7 and Home",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp8": {
+      "description": "keypad 8 and Up Arrow",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp9": {
+      "description": "keypad 9 and Page Up",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp0": {
+      "description": "keypad 0 and Insert",
+      "category": "keyboard",
+      "common": true
+    },
+    "kp.": {
+      "description": "keypad. and Delete",
+      "category": "keyboard",
+      "common": true
+    },
+    "int\\": {
+      "description": "keyboard Non-US \\and |",
+      "category": "keyboard",
+      "common": false
+    },
+    "app": {
+      "description": "keyboard Application",
+      "category": "keyboard",
+      "common": true
+    },
+    "powr": {
+      "description": "keyboard Power1",
+      "category": "keyboard",
+      "common": false
+    },
+    "kp=": {
+      "description": "keypad =",
+      "category": "keyboard",
+      "common": false
+    },
+    "f13": {
+      "description": "keyboard F13",
+      "category": "keyboard",
+      "common": false
+    },
+    "f14": {
+      "description": "keyboard F14",
+      "category": "keyboard",
+      "common": false
+    },
+    "f15": {
+      "description": "keyboard F15",
+      "category": "keyboard",
+      "common": false
+    },
+    "f16": {
+      "description": "keyboard F16",
+      "category": "keyboard",
+      "common": false
+    },
+    "f17": {
+      "description": "keyboard F17",
+      "category": "keyboard",
+      "common": false
+    },
+    "f18": {
+      "description": "keyboard F18",
+      "category": "keyboard",
+      "common": false
+    },
+    "f19": {
+      "description": "keyboard F19",
+      "category": "keyboard",
+      "common": false
+    },
+    "f20": {
+      "description": "keyboard F20",
+      "category": "keyboard",
+      "common": false
+    },
+    "f21": {
+      "description": "keyboard F21",
+      "category": "keyboard",
+      "common": false
+    },
+    "f22": {
+      "description": "keyboard F22",
+      "category": "keyboard",
+      "common": false
+    },
+    "f23": {
+      "description": "keyboard F23",
+      "category": "keyboard",
+      "common": false
+    },
+    "f24": {
+      "description": "keyboard F24",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh74": {
+      "description": "keyboard Execute",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh75": {
+      "description": "keyboard Help",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh76": {
+      "description": "keyboard Menu",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh77": {
+      "description": "keyboard Select",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh78": {
+      "description": "keyboard Stop",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh79": {
+      "description": "keyboard Again",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh7A": {
+      "description": "keyboard Undo",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh7B": {
+      "description": "keyboard Cut",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh7C": {
+      "description": "keyboard Copy",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh7D": {
+      "description": "keyboard Paste",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh7E": {
+      "description": "keyboard Find",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh7F": {
+      "description": "keyboard Mute",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh80": {
+      "description": "keyboard Volume Up",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh81": {
+      "description": "keyboard Volume Down",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh82": {
+      "description": "keyboard Locking Caps",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh83": {
+      "description": "keyboard Locking Num",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh84": {
+      "description": "keyboard Locking",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh85": {
+      "description": "Keypad Comma",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh86": {
+      "description": "Keypad Equal Sign",
+      "category": "keyboard",
+      "common": false
+    },
+    "int1": {
+      "description": "keyboard International1",
+      "category": "keyboard",
+      "common": false
+    },
+    "int2": {
+      "description": "keyboard International2",
+      "category": "keyboard",
+      "common": false
+    },
+    "int3": {
+      "description": "keyboard International3",
+      "category": "keyboard",
+      "common": false
+    },
+    "int4": {
+      "description": "keyboard International4",
+      "category": "keyboard",
+      "common": false
+    },
+    "int5": {
+      "description": "keyboard International5",
+      "category": "keyboard",
+      "common": false
+    },
+    "int6": {
+      "description": "keyboard International6",
+      "category": "keyboard",
+      "common": false
+    },
+    "int7": {
+      "description": "keyboard International7",
+      "category": "keyboard",
+      "common": false
+    },
+    "int8": {
+      "description": "keyboard International8",
+      "category": "keyboard",
+      "common": false
+    },
+    "int9": {
+      "description": "keyboard International9",
+      "category": "keyboard",
+      "common": false
+    },
+    "lng1": {
+      "description": "keyboard LANG1",
+      "category": "keyboard",
+      "common": false
+    },
+    "lng2": {
+      "description": "keyboard LANG2",
+      "category": "keyboard",
+      "common": false
+    },
+    "lng3": {
+      "description": "keyboard LANG3",
+      "category": "keyboard",
+      "common": false
+    },
+    "lng4": {
+      "description": "keyboard LANG4",
+      "category": "keyboard",
+      "common": false
+    },
+    "lng5": {
+      "description": "keyboard LANG5",
+      "category": "keyboard",
+      "common": false
+    },
+    "lng6": {
+      "description": "keyboard LANG6",
+      "category": "keyboard",
+      "common": false
+    },
+    "lng7": {
+      "description": "keyboard LANG7",
+      "category": "keyboard",
+      "common": false
+    },
+    "lng8": {
+      "description": "keyboard LANG8",
+      "category": "keyboard",
+      "common": false
+    },
+    "lng9": {
+      "description": "keyboard LANG9",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh99": {
+      "description": "keyboard Alternate Erase",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh9A": {
+      "description": "keyboard SysReq/Attention",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh9B": {
+      "description": "keyboard Cancel",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh9C": {
+      "description": "keyboard Clear",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh9D": {
+      "description": "keyboard Prior",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh9E": {
+      "description": "keyboard Return",
+      "category": "keyboard",
+      "common": false
+    },
+    "kh9F": {
+      "description": "keyboard Separator",
+      "category": "keyboard",
+      "common": false
+    },
+    "khA0": {
+      "description": "keyboard Out",
+      "category": "keyboard",
+      "common": false
+    },
+    "khA1": {
+      "description": "keyboard Oper",
+      "category": "keyboard",
+      "common": false
+    },
+    "khA2": {
+      "description": "keyboard Clear/Again",
+      "category": "keyboard",
+      "common": false
+    },
+    "khA3": {
+      "description": "keyboard CrSel/Props",
+      "category": "keyboard",
+      "common": false
+    },
+    "khA4": {
+      "description": "keyboard ExSel",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB0": {
+      "description": "keypad 00",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB1": {
+      "description": "keypad 000",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB2": {
+      "description": "Thousands Separator",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB3": {
+      "description": "Decimal Separator",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB4": {
+      "description": "Currency Unit",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB5": {
+      "description": "Currency Sub-unit",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB6": {
+      "description": "keypad (",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB7": {
+      "description": "keypad)",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB8": {
+      "description": "keypad {",
+      "category": "keyboard",
+      "common": false
+    },
+    "khB9": {
+      "description": "keypad }",
+      "category": "keyboard",
+      "common": false
+    },
+    "khBA": {
+      "description": "keypad Tab",
+      "category": "keyboard",
+      "common": false
+    },
+    "khBB": {
+      "description": "keypad Backspace",
+      "category": "keyboard",
+      "common": false
+    },
+    "khBC": {
+      "description": "keypad A",
+      "category": "keyboard",
+      "common": false
+    },
+    "khBD": {
+      "description": "keypad B",
+      "category": "keyboard",
+      "common": false
+    },
+    "khBE": {
+      "description": "keypad C",
+      "category": "keyboard",
+      "common": false
+    },
+    "khBF": {
+      "description": "keypad D",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC0": {
+      "description": "keypad E",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC1": {
+      "description": "keypad F",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC2": {
+      "description": "keypad XOR",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC3": {
+      "description": "keypad ^",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC4": {
+      "description": "keypad %",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC5": {
+      "description": "keypad <",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC6": {
+      "description": "keypad >",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC7": {
+      "description": "keypad &",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC8": {
+      "description": "keypad &&",
+      "category": "keyboard",
+      "common": false
+    },
+    "khC9": {
+      "description": "keypad |",
+      "category": "keyboard",
+      "common": false
+    },
+    "khCA": {
+      "description": "keypad ||",
+      "category": "keyboard",
+      "common": false
+    },
+    "khCB": {
+      "description": "keypad:",
+      "category": "keyboard",
+      "common": false
+    },
+    "khCC": {
+      "description": "keypad #",
+      "category": "keyboard",
+      "common": false
+    },
+    "khCD": {
+      "description": "keypad Space",
+      "category": "keyboard",
+      "common": false
+    },
+    "khCE": {
+      "description": "keypad @",
+      "category": "keyboard",
+      "common": false
+    },
+    "khCF": {
+      "description": "keypad !",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD0": {
+      "description": "keypad Memory Store",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD1": {
+      "description": "keypad Memory Recall",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD2": {
+      "description": "keypad Memory Clear",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD3": {
+      "description": "keypad Memory Add",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD4": {
+      "description": "keypad Memory Subtract",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD5": {
+      "description": "keypad Memory Multiply",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD6": {
+      "description": "keypad Memory Divide",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD7": {
+      "description": "keypad +/-",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD8": {
+      "description": "keypad Clear",
+      "category": "keyboard",
+      "common": false
+    },
+    "khD9": {
+      "description": "keypad Clear Entry",
+      "category": "keyboard",
+      "common": false
+    },
+    "khDA": {
+      "description": "keypad Binary",
+      "category": "keyboard",
+      "common": false
+    },
+    "khDB": {
+      "description": "keypad Octal",
+      "category": "keyboard",
+      "common": false
+    },
+    "khDC": {
+      "description": "keypad Decimal",
+      "category": "keyboard",
+      "common": false
+    },
+    "khDD": {
+      "description": "keypad Hexadecimal",
+      "category": "keyboard",
+      "common": false
+    },
+    "lctr": {
+      "description": "left control",
+      "category": "keyboard-modifier",
+      "common": true
+    },
+    "lshf": {
+      "description": "left shift",
+      "category": "keyboard-modifier",
+      "common": true
+    },
+    "lalt": {
+      "description": "left alt",
+      "category": "keyboard-modifier",
+      "common": true
+    },
+    "lwin": {
+      "description": "left gui",
+      "category": "keyboard-modifier",
+      "common": true
+    },
+    "rctr": {
+      "description": "right control",
+      "category": "keyboard-modifier",
+      "common": true
+    },
+    "rshf": {
+      "description": "right shift",
+      "category": "keyboard-modifier",
+      "common": true
+    },
+    "ralt": {
+      "description": "right alt",
+      "category": "keyboard-modifier",
+      "common": true
+    },
+    "rwin": {
+      "description": "right gui",
+      "category": "keyboard-modifier",
+      "common": true
+    },
+    "next": {
+      "description": "scan next",
+      "category": "media",
+      "common": true
+    },
+    "prev": {
+      "description": "scan prev",
+      "category": "media",
+      "common": true
+    },
+    "play": {
+      "description": "play",
+      "category": "media",
+      "common": true
+    },
+    "stop": {
+      "description": "stop",
+      "category": "media",
+      "common": true
+    },
+    "mute": {
+      "description": "mute",
+      "category": "media",
+      "common": true
+    },
+    "vol+": {
+      "description": "volume up",
+      "category": "media",
+      "common": true
+    },
+    "vol-": {
+      "description": "volume down",
+      "category": "media",
+      "common": true
+    },
+    "fwrd": {
+      "description": "forward",
+      "category": "media",
+      "common": true
+    },
+    "rewd": {
+      "description": "rewind",
+      "category": "media",
+      "common": true
+    },
+    "cpau": {
+      "description": "pause",
+      "category": "media",
+      "common": true
+    },
+    "ejct": {
+      "description": "eject",
+      "category": "media",
+      "common": true
+    },
+    "plpa": {
+      "description": "play/pause",
+      "category": "media",
+      "common": true
+    },
+    "recr": {
+      "description": "record",
+      "category": "media",
+      "common": false
+    },
+    "ranp": {
+      "description": "random play",
+      "category": "media",
+      "common": false
+    },
+    "plsk": {
+      "description": "play/skip",
+      "category": "media",
+      "common": false
+    },
+    "calc": {
+      "description": "calculator",
+      "category": "media",
+      "common": false
+    },
+    "mmut": {
+      "description": "microphone mute",
+      "category": "media",
+      "common": false
+    },
+    "pwdn": {
+      "description": "system power down",
+      "category": "system",
+      "common": false
+    },
+    "lmou": {
+      "description": "mouse button left click",
+      "category": "mouse",
+      "common": true
+    },
+    "rmou": {
+      "description": "mouse button right click",
+      "category": "mouse",
+      "common": true
+    },
+    "mmou": {
+      "description": "mouse button middle click",
+      "category": "mouse",
+      "common": true
+    },
+    "4mou": {
+      "description": "mouse button 4 click",
+      "category": "mouse",
+      "common": false
+    },
+    "5mou": {
+      "description": "mouse button 5 click",
+      "category": "mouse",
+      "common": false
+    },
+    "sumo": {
+      "description": "mouse scroll up",
+      "category": "mouse",
+      "common": true
+    },
+    "sdmo": {
+      "description": "mouse scroll down",
+      "category": "mouse",
+      "common": true
+    },
+    "moul": {
+      "description": "mouse move left",
+      "category": "mouse",
+      "common": true
+    },
+    "mour": {
+      "description": "mouse move right",
+      "category": "mouse",
+      "common": true
+    },
+    "mouu": {
+      "description": "mouse move up",
+      "category": "mouse",
+      "common": true
+    },
+    "moud": {
+      "description": "mouse move down",
+      "category": "mouse",
+      "common": true
+    },
+    "null": {
+      "description": "no action",
+      "category": "custom",
+      "common": true
+    },
+    "ss": {
+      "description": "smartset",
+      "category": "custom",
+      "common": true
+    },
+    "ledt": {
+      "description": "led toggle on/off",
+      "category": "custom",
+      "common": true
+    },
+    "led+": {
+      "description": "led brightness up",
+      "category": "custom",
+      "common": true
+    },
+    "led-": {
+      "description": "led brightness down",
+      "category": "custom",
+      "common": true
+    },
+    "Defs": {
+      "description": "Default layer shift",
+      "category": "custom",
+      "common": true
+    },
+    "Deft": {
+      "description": "Default layer toggle",
+      "category": "custom",
+      "common": true
+    },
+    "keys": {
+      "description": "keypad layer shift",
+      "category": "custom",
+      "common": true
+    },
+    "keyt": {
+      "description": "keypad layer toggle",
+      "category": "custom",
+      "common": true
+    },
+    "fn1s": {
+      "description": "fn1 layer shift",
+      "category": "custom",
+      "common": true
+    },
+    "fn1t": {
+      "description": "fn1 layer toggle",
+      "category": "custom",
+      "common": true
+    },
+    "fn2s": {
+      "description": "fn2 layer shift",
+      "category": "custom",
+      "common": true
+    },
+    "fn2t": {
+      "description": "fn2 layer toggle",
+      "category": "custom",
+      "common": true
+    },
+    "fn3s": {
+      "description": "fn3 layer shift",
+      "category": "custom",
+      "common": true
+    },
+    "fn3t": {
+      "description": "fn3 layer toggle",
+      "category": "custom",
+      "common": true
+    },
+    "mstp": {
+      "description": "stop macro playback",
+      "category": "custom",
+      "common": true
+    },
+    "hypr": {
+      "description": "hyper",
+      "category": "custom",
+      "common": true
+    },
+    "meh": {
+      "description": "meh",
+      "category": "custom",
+      "common": true
+    },
+    "pro0": {
+      "description": "load profile 0",
+      "category": "custom",
+      "common": true
+    },
+    "pro1": {
+      "description": "load profile 1",
+      "category": "custom",
+      "common": true
+    },
+    "pro2": {
+      "description": "load profile 2",
+      "category": "custom",
+      "common": true
+    },
+    "pro3": {
+      "description": "load profile 3",
+      "category": "custom",
+      "common": true
+    },
+    "pro4": {
+      "description": "load profile 4",
+      "category": "custom",
+      "common": true
+    },
+    "pro5": {
+      "description": "load profile 5",
+      "category": "custom",
+      "common": true
+    },
+    "pro6": {
+      "description": "load profile 6",
+      "category": "custom",
+      "common": true
+    },
+    "pro7": {
+      "description": "load profile 7",
+      "category": "custom",
+      "common": true
+    },
+    "pro8": {
+      "description": "load profile 8",
+      "category": "custom",
+      "common": true
+    },
+    "pro9": {
+      "description": "load profile 9",
+      "category": "custom",
+      "common": true
+    },
+    "caws": {
+      "description": "control + alt + win + shift",
+      "category": "custom",
+      "common": false
+    },
+    "xaws": {
+      "description": "control + alt + win",
+      "category": "custom",
+      "common": false
+    },
+    "cxws": {
+      "description": "control + win + shift",
+      "category": "custom",
+      "common": false
+    },
+    "caxs": {
+      "description": "control + alt + shift",
+      "category": "custom",
+      "common": false
+    },
+    "cawx": {
+      "description": "alt + win + shift",
+      "category": "custom",
+      "common": false
+    },
+    "caxx": {
+      "description": "control + alt",
+      "category": "custom",
+      "common": false
+    },
+    "cxwx": {
+      "description": "control + win",
+      "category": "custom",
+      "common": false
+    },
+    "cxxs": {
+      "description": "control + shift",
+      "category": "custom",
+      "common": false
+    },
+    "xawx": {
+      "description": "alt + win",
+      "category": "custom",
+      "common": false
+    },
+    "xaxs": {
+      "description": "alt + shift",
+      "category": "custom",
+      "common": false
+    },
+    "xxws": {
+      "description": "win + shift",
+      "category": "custom",
+      "common": false
+    },
+    "a": {
+      "description": "keyboard a and A",
+      "category": "keyboard",
+      "common": true
+    },
+    "b": {
+      "description": "keyboard b and B",
+      "category": "keyboard",
+      "common": true
+    },
+    "c": {
+      "description": "keyboard c and C",
+      "category": "keyboard",
+      "common": true
+    },
+    "d": {
+      "description": "keyboard d and D",
+      "category": "keyboard",
+      "common": true
+    },
+    "e": {
+      "description": "keyboard e and E",
+      "category": "keyboard",
+      "common": true
+    },
+    "f": {
+      "description": "keyboard f and F",
+      "category": "keyboard",
+      "common": true
+    }
+  }
+}

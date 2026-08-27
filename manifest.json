@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.phenasdev.kinesis360",
+  "name": "Kinesis Advantage360",
+  "version": "0.1.0",
+  "author": "Fernando Leitao",
+  "license": "MIT",
+  "description": "Reprogram the Kinesis Advantage360 (SmartSet) v-Drive from the Omarchy bar.",
+  "kinds": ["bar-widget"],
+  "entryPoints": {
+    "barWidget": "Panel.qml"
+  },
+  "barWidget": {
+    "displayName": "Kinesis 360",
+    "description": "v-Drive status and key remapping for the Kinesis Advantage360",
+    "category": "Hardware",
+    "aliases": ["kinesis", "kinesis360", "adv360"],
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
