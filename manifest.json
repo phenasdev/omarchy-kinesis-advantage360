@@ -3,7 +3,7 @@
   "id": "io.github.phenasdev.kinesis360",
   "name": "Kinesis Advantage360",
   "version": "0.1.0",
-  "author": "Fernando Leitao",
+  "author": "phenasdev",
   "license": "MIT",
   "description": "Reprogram the Kinesis Advantage360 (SmartSet) v-Drive from the Omarchy bar.",
   "kinds": ["bar-widget"],
