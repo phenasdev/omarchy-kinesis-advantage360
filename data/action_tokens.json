@@ -1160,7 +1160,7 @@
     "pwdn": {
       "description": "system power down",
       "category": "system",
-      "common": false
+      "common": true
     },
     "lmou": {
       "description": "mouse button left click",

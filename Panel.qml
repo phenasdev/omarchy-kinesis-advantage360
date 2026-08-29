@@ -21,10 +21,12 @@ Panel {
 
   // Same keyboard glyph the Logitech plugin uses for its own keyboards
   // (nf-md-keyboard_variant, U+F030C) — confirmed present in the installed
-  // Nerd Font and already proven to render in this bar.
-  readonly property string stateLabel: kinesis.state === "mounted" ? "󰌌 ●"
-    : kinesis.state === "busy" ? "󰌌 …"
-    : "󰌌"
+  // Nerd Font and already proven to render in this bar. A single glyph only:
+  // BarIconButton optically centers exactly one glyph in a fixed-size slot,
+  // so state is conveyed by color alone — appending "●"/"…" here (as an
+  // earlier version did) skews that centering and throws off the bar's
+  // open-panel indicator line, which is centered on the fixed slot too.
+  readonly property string stateGlyph: "󰌌"
 
   readonly property color stateColor: kinesis.state === "mounted" ? Color.accent
     : kinesis.state === "busy" ? root.foreground
@@ -39,11 +41,11 @@ Panel {
     pluginDir: root.pluginDir
   }
 
-  WidgetButton {
+  BarIconButton {
     id: button
     anchors.fill: parent
     bar: root.bar
-    text: root.stateLabel
+    text: root.stateGlyph
     foreground: root.stateColor
     active: root.opened
     tooltipText: root.tooltip
@@ -60,8 +62,11 @@ Panel {
     bar: root.bar
     open: root.opened
     focusTarget: keyCatcher
-    contentWidth: panel.fittedContentWidth(Style.space(1260))
-    contentHeight: panel.fittedContentHeight(Style.space(600))
+    // Fit exactly to the Editor's real content size (see Editor.qml's
+    // implicitWidth/Height forwarding) instead of a guessed fixed size —
+    // the cap is just a safety ceiling for an unexpectedly tall category list.
+    contentWidth: panel.fittedContentWidth(editor.implicitWidth)
+    contentHeight: panel.fittedContentHeight(editor.implicitHeight, Style.space(900))
 
     PanelKeyCatcher {
       id: keyCatcher
@@ -70,6 +75,7 @@ Panel {
       onTabRequested: function (direction) { root.switchPanel(direction) }
 
       Editor {
+        id: editor
         anchors.fill: parent
         service: kinesis
         pluginDir: root.pluginDir

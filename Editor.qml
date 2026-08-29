@@ -16,7 +16,7 @@ Item {
 
   readonly property color foreground: Color.popups.text
   readonly property color accent: Color.accent
-  readonly property int cell: Style.space(40)
+  readonly property int cell: Style.space(44)
   readonly property int gap: Style.space(3)
 
   FileView { id: posFile; path: root.pluginDir + "/data/position_tokens.json"; blockLoading: true }
@@ -149,7 +149,15 @@ Item {
   Component.onCompleted: loadProfile(1)
   onLayerIdChanged: selectedPosition = ""
 
+  // Forwarded from the content layout so the popup that hosts this Editor
+  // (Panel.qml's KeyboardPanel) can size itself to fit exactly — anchors
+  // alone don't give a plain Item an implicit size, same issue the bar
+  // button's implicitWidth/Height fix addressed.
+  implicitWidth: content.implicitWidth
+  implicitHeight: content.implicitHeight
+
   ColumnLayout {
+    id: content
     anchors.fill: parent
     spacing: Style.spacing.md
 
@@ -295,7 +303,7 @@ Item {
 
       // --- side panel: SmartSet-style category browser -------------------
       ColumnLayout {
-        Layout.preferredWidth: Style.space(300)
+        Layout.preferredWidth: Style.space(260)
         Layout.fillHeight: true
         spacing: Style.spacing.sm
 
